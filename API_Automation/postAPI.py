@@ -1,9 +1,7 @@
-import requests
-
 from API_Automation.utilities.addEmployeePayload import *
 from API_Automation.utilities.configurations import *
 from  API_Automation.utilities.resources import *
-
+import requests
 
 url = getConfig()['API']['endpoint'] + apiResources.createEmployee
 url1 = getConfig()['API']['endpoint'] + apiResources.getAllEmployees
